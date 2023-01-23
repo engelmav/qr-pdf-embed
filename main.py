@@ -23,21 +23,6 @@ for n in range(0,10):
         y0 += 150
         y1 += 150
         column_count = 0
-    # if we go across the page, the y stays the same, only the xs change
-    # x0 += 100
-    # # y0 += 100
-    #
-    # # if we go down the page, the x stays the same, only the ys change
-    # x1 += 100
-    # # y1 += 100
 
 
 doc.save(input_file+"_new.pdf")
-print(page)
-
-
-
-#
-# with pdfplumber.open("/home/vengelmann/Downloads/OL996.pdf") as pdf:
-#    first_page = pdf.pages[0]
-#    print(first_page.objects)
